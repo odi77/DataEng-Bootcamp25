@@ -1,0 +1,7 @@
+# Folders
+ny_taxi_postgres_data/
+
+# Files
+yellow_tripdata_2024-01.parquet
+rows.csv
+output.csv
