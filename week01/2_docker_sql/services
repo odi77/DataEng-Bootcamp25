@@ -13,6 +13,7 @@ services:
             retries: 5
         restart: always
 
+# postgres
 
 docker run -it \
     -e POSTGRES_USER="root" \
@@ -36,6 +37,7 @@ docker run -it \
 
 https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
 
+# pgadmin
 
 docker run -it \
     -e PGADMIN_DEFAULT_EMAIL="admin@admin.com" \
